@@ -150,3 +150,7 @@ MESSAGE_TAGS = {
 # EMAIL_HOST_USER = 'ehsan@matari.ir'
 # EMAIL_HOST_PASSWORD = 'e9109779608'
 # EMAIL_USE_TLS = True
+try:
+    from .local_settings import *
+except ImportError:
+    pass
