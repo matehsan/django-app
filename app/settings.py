@@ -145,10 +145,10 @@ MESSAGE_TAGS = {
     messages.INFO: 'primary',
 }
 # Email
-# EMAIL_HOST = 'smtp.migadu.com'
-# EMAIL_PORT = 587
+# EMAIL_HOST = 'smtp.*****.com'
+# EMAIL_PORT = ***
 # EMAIL_HOST_USER = 'ehsan@matari.ir'
-# EMAIL_HOST_PASSWORD = 'e9109779608'
+# EMAIL_HOST_PASSWORD = '************'
 # EMAIL_USE_TLS = True
 try:
     from .local_settings import *
